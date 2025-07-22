@@ -51,7 +51,7 @@
     "eventVenue": "Kissflow (OrangeScape Technologies), No:5, Tower-B, 10th Floor, World Trade Center, 142, Rajiv Gandhi Salai, Tirumalai Nagar, Perungudi, Chennai, Tamil Nadu 600096, India",
     "eventLink": "https://lu.ma/zmtjxd8s",
     "location": "Chennai",
-    "communityName": "D3 Community",
+    "communityId": "d3-community",
     "communityLogo": "https://i.ibb.co/BKQb8hLG/D3-Community-Official-logo.png"
   },
   {
@@ -75,41 +75,5 @@
     "location": "Chennai",
     "communityName": "InnovateX by Sciflare",
     "communityLogo": "https://i.ibb.co/r2cpfJLq/1749464830460.jpg"
-  },
-  {
-    "eventName": "React Native Workshop",
-    "eventDescription": "Learn React Native development from scratch. Build cross-platform mobile applications with hands-on exercises and real-world examples.",
-    "eventDate": "2025-08-15",
-    "eventTime": "10:00",
-    "eventVenue": "Tech Park, Sholinganallur, Chennai",
-    "eventLink": "https://example.com/react-native-workshop",
-    "location": "Chennai",
-    "communityId": "namma-flutter"
-  },
-  {
-    "eventName": "AI/ML Study Group",
-    "eventDescription": "Weekly study group for AI and Machine Learning enthusiasts. Discuss latest research papers, work on projects, and share knowledge.",
-    "eventDate": "2025-08-20",
-    "eventTime": "18:30",
-    "eventVenue": "CoWorks, Nungambakkam, Chennai",
-    "eventLink": "https://example.com/ai-ml-study-group",
-    "location": "Chennai",
-    "community": {
-      "id": "ai-ml-chennai-002",
-      "name": "AI/ML Chennai",
-      "logo": "https://i.ibb.co/example/ai-ml-chennai-logo.png",
-      "description": "Chennai's premier AI and Machine Learning community"
-    }
-  },
-  {
-    "eventName": "DevOps Meetup",
-    "eventDescription": "Monthly meetup for DevOps practitioners. Learn about CI/CD, containerization, cloud platforms, and infrastructure automation.",
-    "eventDate": "2025-08-25",
-    "eventTime": "16:00",
-    "eventVenue": "Innovation Hub, OMR, Chennai",
-    "eventLink": "https://example.com/devops-meetup",
-    "location": "Chennai",
-    "communityName": "DevOps Chennai",
-    "communityLogo": "https://i.ibb.co/example/devops-chennai-logo.png"
   }
 ]

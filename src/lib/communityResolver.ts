@@ -33,7 +33,12 @@ function validateInlineCommunity(community: unknown): asserts community is Inlin
     throw new CommunityResolutionError('Inline community must be an object');
   }
 
-  if (!community.name || typeof community.name !== 'string' || community.name.trim() === '') {
+  if (
+    !('name' in community) ||
+    typeof (community as { name?: unknown }).name !== 'string' ||
+    (typeof (community as { name?: unknown }).name === 'string' &&
+      (community as { name: string }).name.trim() === '')
+  ) {
     throw new CommunityResolutionError('Inline community must have a non-empty name field');
   }
 }
